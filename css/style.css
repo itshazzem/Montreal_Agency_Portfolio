@@ -121,8 +121,8 @@ header i.toggle:hover {
 
 header i.toggle::before {
     color: #191a1f;
-    width: 22px;
-    height: 22px;
+    width: 25px;
+    height: 25px;
     font-size: 13px;
     background-color: var(--primeryColor);
     display: flex;
@@ -190,7 +190,7 @@ header .links a:hover::before {
         transition: var(--mainTransition);
     }
 
-    header .toggle:hover+ul.links a:not(li:last-child) {
+    header .toggle:hover+ul.links a:not(li:last-child a) {
         border-bottom: 1px solid rgb(249 218 7 / 10%);
     }
 
